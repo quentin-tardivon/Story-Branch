@@ -1,14 +1,22 @@
-const {app, BrowserWindow} = require('electron')
+const electron = require('electron')
 const path = require('path')
 const url = require('url')
+const debug = /--debug/.test(process.argv[2])
+const BrowserWindow = electron.BrowserWindow
+const app = electron.app
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win
 
+
+// Or use `remote` from the renderer process.
+// const {BrowserWindow} = require('electron').remote
+
+
 function createWindow () {
   // Create the browser window.
-  win = new BrowserWindow({width: 800, height: 600})
+  win = new BrowserWindow({width: 800, height: 600, titleBarStyle: 'hidden'})
 
   // and load the index.html of the app.
   win.loadURL(url.format({
@@ -17,8 +25,11 @@ function createWindow () {
     slashes: true
   }))
 
-  // Open the DevTools.
-  win.webContents.openDevTools()
+  // Open the DevTools with npm run debug
+  if (debug) {
+    win.webContents.openDevTools()
+  }
+
 
   // Emitted when the window is closed.
   win.on('closed', () => {
