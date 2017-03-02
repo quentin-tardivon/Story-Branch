@@ -25,3 +25,6 @@ your decisions matched with reality.
 * Scores (multiplayer)
 * Create save
 * Save result as an external file (png, jpeg, pdf)
+
+## Docs:
+* https://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/
