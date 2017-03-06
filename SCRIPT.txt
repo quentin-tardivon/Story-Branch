@@ -99,19 +99,47 @@ You are ten, and even if you are the rightfull king, you are a bit too young to 
 2 ALT-3 /* Violence is mostly avoided and this crisis defused, congratulations !*/ -> SKIP TO (MARK 1)
 3 /*+ : That didn't work out...*/
 
-[The rebels march on London and seek to destroy all symbols of royalty.]
+[The rebels march on London and seek to destroy all symbols of royalty.] 1381
 
 1 -> Invite everyone to a cup of tea to calm their spirit.
 2 -> Quick, hide in the Tower of London !
 3 -> Abolish monarchy to please them.
 
-1/3 /* It works at first, but your allies decide to kill the rebels and their leaders. Well, everything is in order now.
-2 /* +: Even though a part of your ENTOURAGE was slain, you survived, and decide to defuse the situation long enough to allow for your allies to kill the rebels and their leaders. It works !*/
+1/3 /* It works at first, but your allies decide to kill the rebels and their leaders. Well, everything is as it was, which means it is in order now.*/
+2 /* +: Even though some of your acquaintances were slain, you survived, and succeeded to defuse the situation long enough to allow for your allies to kill the rebels and their leaders. It works !*/
 
 (MARK 1)
 
+[The war is still raging, and you are old enough to take a spouse. Who will you marry ?] 1382
+
+1 -> Anne of Bohemia, daughter of the Holy Roman Emperor - that could make them potential allies for the war.
+2 -> 
+3 ->
+
+1/*+: */
+2/3 /* */
 
 
+[Your last crusade against France was a failure, so you decide to...] 1385
 
+1 -> Wait patiently
+2 -> Try to invade France again
+3 -> Turn you attention towards France's ally, Scotland +
+
+1 /* At least, nothing bad can happen */ -> SKIP TO (MARK 2)
+2 /* Your invasion failed, but you survived and returned to England.*/
+3 /* + : You lead a punitive expedition to the north, but the army has to return without ever engaging the Scots in battle...*/
+
+[]
+
+1
+2
+3
+
+1
+2
+3
+
+(MARK 2)
 
 ---> Henry V
