@@ -28,3 +28,7 @@ your decisions matched with reality.
 
 ## Docs:
 * https://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/
+* https://github.com/material-components/material-components-web
+* EJS / HandleBar
+
+TODO: Implement EJS, implement pagetransitions

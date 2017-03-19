@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="../node_modules/material-components-web/dist/material-components-web.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="../styles/storyPages.css">
-
 </head>
 
 <body class="mdc-typography main-body">
@@ -35,36 +34,16 @@
     </header>
 
     <div class="main-content mdc-toolbar-fixed-adjust">
-        <nav class="mdc-permanent-drawer">
-            <div class="mdc-list-group list-group-content">
-                <h2>Your progress</h2>
-                <script>
-                    const {
-                        remote
-                    } = require('electron');
-                    document.write('<p id="score">Your Score: ' + remote.getGlobal('sharedObj').score + '</p>');
-                </script>
-            </div>
-        </nav>
-        <main class="demo-main">
-            <h1>Content</h1>
-            <div class="content-center">
+        <main class="main">
+          <p>The Hundred Years War is a conflict that lasted more than 100 years (116 to be exact), from 1337 to 1453, between England and France.
+          This war was due to two things ; firstly, the status of the duchy of Guyenne (Aquitaine), because even though it belonged to the kings of England, it remained a fief of the French crown, and secondly, the kings of England from 1337 claimed the crown of France.</p>
 
-                <p>Your name is Edward III of England.
-                After your father's, the king Edward II, political and military failures with the Scots, you were crowned on February 1st 1327.
-                You tried to invade Scotland yourself, then. You succeeded, initially, but victories proved hard to sustain, so you agreed to a truce.
-                Unfortunatly, the Scots were allied with France.</p>
+          <p>You are going to play the entire war as the kings of England. The goal is to stick as possible to reality - you'll see how far or close at the end of the game.
+          Don't forget that reality sometimes superseedes fiction !</p>
 
-                <div class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('Congratulations ! You started a Hundred Year War!')">
-                    Lay claim for the throne of France !
-                </div>
-
-                <p id="response"><p>
-            </div>
-
+          <button class="mdc-button mdc-button--raised" onclick="window.location.href='./startgame.html'">Let's go</button>
         </main>
     </div>
-    <script src="../script/backend.js"></script>
     <script src="../node_modules/material-components-web/dist/material-components-web.js" charset="utf-8"></script>
     <script>
         (function(global) {

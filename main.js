@@ -9,7 +9,7 @@ const app = electron.app
 // be closed automatically when the JavaScript object is garbage collected.
 let win
 
-
+global.sharedObj = {score: 0};
 // Or use `remote` from the renderer process.
 // const {BrowserWindow} = require('electron').remote
 

@@ -1,0 +1,77 @@
+/* Ensure layout covers the entire screen. */
+
+html {
+    height: 100%;
+}
+/* Stack toolbar and content on top of each other. */
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+/* Place drawer and main next to each other. */
+
+.main-content {
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.main {
+    color: black;
+    padding-top: 70px;
+    padding-left: 16px;
+    background-color: white;
+}
+
+.list-group-content {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.demo-surface {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    padding: 2rem;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+
+}
+
+.content-center {
+  padding-left: 20px;
+}
+
+.mdc-toolbar {
+  background-color: #212121;
+}
+
+.mdc-permanent-drawer {
+  width: 50em;
+}
+
+.mdc-toolbar__title {
+  padding-top: 10px;
+}
+
+.mdc-button {
+  background-color: #95989A;
+}
+
+button.demo-surface {
+    display: inline-block;
+    /* Safari does not center button text otherwise :( */
+    background: none;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
