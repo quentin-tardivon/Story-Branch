@@ -3,28 +3,48 @@
 
 <head>
     <link rel="stylesheet" href="node_modules/material-components-web/dist/material-components-web.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="css/animations.css" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
     <script src="node_modules/material-components-web/dist/material-components-web.js" charset="utf-8"></script>
-    <script src="script/modernizr.custom.js"></script>
+    <script src="node_modules/bodymovin/build/player/bodymovin.min.js"></script>
+
+
     <title>Story Branch</title>
 </head>
 
 <body>
     <div style="text-align: center;margin-top: 50vh;transform: translateY(-50%);">
-        <h2 class="mdc-typography--display2">Story Branch</h2>
+
+
+        <h2 class="mdc-typography--display2 animated zoomIn">Story Branch</h2>
+
+
+            <div class="bm_inner_container" id="test"></div>
 
         <button class="mdc-button mdc-button--raised"  onclick="window.location.href='section/intro.html'">
             Start a Game
-          </button>
+        </button>
     </div>
 
+    <script>
+      var bodymovin = require('bodymovin');
+      var animData = {
+          wrapper: document.getElementById('test'),
+          animType: 'html',
+          loop: false,
+          prerender: true,
+          autoplay: true,
+          path: './assets/data.json'
+      };
+      var anim = bodymovin.loadAnimation(animData);
+    </script>
 
     <script src="node_modules/material-components-web/dist/material-components-web.js" charset="utf-8"></script>
     <script src="script/buttonAnimation.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="script/jquery.dlmenu.js"></script>
-		<script src="script/pagetransitions.js"></script>
+
+
+
 </body>
 
 

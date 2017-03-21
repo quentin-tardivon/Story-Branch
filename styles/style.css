@@ -16,3 +16,11 @@ body {
   text-align: justify;
   line-height: 1.5em;
 }
+
+
+  .bm_inner_container {
+    height: 100px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: auto;
+  }
