@@ -31,13 +31,13 @@
 </head>
 
 <body class="mdc-typography main-body">
-    <header class="mdc-toolbar mdc-toolbar--fixed animated fadeInDown">
+    <header class="mdc-toolbar mdc-toolbar--fixed">
         <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
             <span class="mdc-toolbar__title">Story Branch</span>
         </section>
     </header>
 
-    <div class="main-content mdc-toolbar-fixed-adjust animated fadeInLeft">
+    <div class="main-content mdc-toolbar-fixed-adjust">
         <nav class="mdc-permanent-drawer">
             <div class="mdc-list-group list-group-content">
                 <h4>Progress</h4>
@@ -56,17 +56,21 @@
         </nav>
         <main class="demo-main">
 
-            <div class="content-center" style="margin-top:80px; margin-left:10px;">
+            <div class="content-center animated fadeInRight" style="margin-top:80px; margin-left:10px;">
 
-                <p>Your name is Edward III of England.
-                After your father's, the king Edward II, political and military failures with the Scots, you were crowned on February 1st 1327.
-                You tried to invade Scotland yourself, then. You succeeded, initially, but victories proved hard to sustain, so you agreed to a truce.
-                Unfortunatly, the Scots were allied with France.</p>
+                <p>You should build an alliance. Who will you chose ?</p>
 
-                <div class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('Congratulations ! You started a Hundred Year War!');window.location.href='./step1.html'">
-                    Lay claim for the throne of France !
+                <div class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('Great ! You achieved the control of the Channel.');window.location.href='./step2.html'">
+                    The Portuguese.
                 </div>
-                
+
+                <div class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('Okay. This certainly won't help retaking the Channel, though.');window.location.href='./step2.html'">
+                    The Italian.
+                </div>
+
+                <div class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('Okay. This certainly won't help retaking the Channel, though.');window.location.href='./step2.html'">
+                    The Dane.
+                </div>
 
                 <p id="response" class="animated fadeInUp"><p>
             </div>

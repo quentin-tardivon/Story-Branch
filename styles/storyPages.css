@@ -34,6 +34,7 @@ html {
 }
 
 .demo-surface {
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +56,8 @@ html {
 }
 
 .mdc-permanent-drawer {
-  width: 50em;
+  min-width: 200px;
+  max-width: 200px;
 }
 
 .mdc-toolbar__title {
@@ -74,4 +76,10 @@ button.demo-surface {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+}
+
+.portrait {
+  width:150px;
+  height:150px;
+  margin-top: auto;
 }
