@@ -7,15 +7,15 @@ Introduction :
 /* The Hundred Years War is a conflict that lasted more than 100 years (116 to be exact), from 1337 to 1453, between England and France.
 This war was due to two things ; firstly, the status of the duchy of Guyenne (Aquitaine), because even though it belonged to the kings of England, it remained a fief of the French crown, and secondly, the kings of England from 1337 claimed the crown of France.
 
-You are going to play the entire war as the kings of England. The goal is to stick as possible to reality - you'll see how far or close at the end of the game.
-Don't forget that reality sometimes superseedes fiction !
+You are going to play the entire war as the kings of England. The goal is to stick as possible to reality - you\'ll see how far or close at the end of the game.
+Don\'t forget that reality sometimes superseedes fiction !
 */
 
 POP-UP : ---> Edward III of England 1337
 
 
 /* Your name is Edward III of England.
-After your father's, the king Edward II, political and military failures with the Scots, you were crowned on February 1st 1327.
+After your father\'s, the king Edward II, political and military failures with the Scots, you were crowned on February 1st 1327.
 You tried to invade Scotland yourself, then. You succeeded, initially, but victories proved hard to sustain, so you agreed to a truce.
 Unfortunatly, the Scots were allied with France.*/
 
@@ -29,7 +29,7 @@ Unfortunatly, the Scots were allied with France.*/
 3-> The Dane.
 
 1/*+ : Great ! You achieved the control of the Channel.*/
-2/3 /*Okay. This certainly won't help retaking the Channel, though.*/
+2/3 /*Okay. This certainly won\'t help retaking the Channel, though.*/
 
 3. [The financial pressure is really hard for your kingdom. What will you do ?] 1340
 
@@ -38,7 +38,7 @@ Unfortunatly, the Scots were allied with France.*/
 3-> Sell those ugly tapestries that give you nightmares.
 
 1/2/*That did not satisfy your folk, though.*/
-3 : ALT-1 /*You sleep better, now that those malevolent pieces of tissues don't haunt your nightmare. Your castle is really cold, though, and you die of pneumonia shortly after*/ -> GAME OVER
+3 : ALT-1 /*You sleep better, now that those malevolent pieces of tissues don\'t haunt your nightmare. Your castle is really cold, though, and you die of pneumonia shortly after*/ -> GAME OVER
 
 4. [A stand-off ensues between you and your Archibishop of Canterbury, John de Stratford. How do you react ?] 1341
 
@@ -67,9 +67,9 @@ if ALT-2 : {
 2-> Demand that women fight alongside men.
 3-> Make a truce with France.
 
-1/* Your advisors won't let you do that, sadly...*/
-2/* Great ! With this reform, women will surely have more freedom in the future and your country will become a beacon for Women's Right. */
-3/* You can't ! How would it be a 100 years war then?! */
+1/* Your advisors won\'t let you do that, sadly...*/
+2/* Great ! With this reform, women will surely have more freedom in the future and your country will become a beacon for Women\'s Right. */
+3/* You can\'t ! How would it be a 100 years war then?! */
 
 }
 
@@ -79,7 +79,7 @@ Seems the war is going to wait.*/ 1348
 
 /* For a decade, the war continues, with its heroes, bloodshed and stories.*/
 
-/*Your son won a great battle ! It's 1360, and the King John of France accepts the Treaty of Calais, which gives independance to the duchy of Guyenne.*/
+/*Your son won a great battle ! It\'s 1360, and the King John of France accepts the Treaty of Calais, which gives independance to the duchy of Guyenne.*/
 
 /*1377 : Alas, you die.*/
 
@@ -89,15 +89,15 @@ Seems the war is going to wait.*/ 1348
 /* You are now Richard II of England. You were born in 1367, and are one of the grand-children of Edward III, and legitimate heir to the throne of England.
 You are ten, and even if you are the rightfull king, you are a bit too young to reign alone ; you are assisted by your uncle, John of Gaunt, who is not really appreciated by the court.*/
 
-5. [Here comes your first challenge as a king : the Peasant's Revolt, a major uprising. The people from all the southern border rise against serfdom. What will you do ?] 1381
+5. [Here comes your first challenge as a king : the Peasant\'s Revolt, a major uprising. The people from all the southern border rise against serfdom. What will you do ?] 1381
 
 1 -> Have them all beheaded, like the peasants they are !
 2 -> Acceded to their demand right now, even though you are not threatened yet.
 3 -> Send representatives of the royal government to persuade the rebels advancing on London to go back home +
 
-1 /* You reap what you sow ; a larger regiment of rebel find you in your castle, and let's say it isn't pretty.*/ -> GAME OVER
+1 /* You reap what you sow ; a larger regiment of rebel find you in your castle, and let\'s say it isn\'t pretty.*/ -> GAME OVER
 2 ALT-3 /* Violence is mostly avoided and this crisis defused, congratulations !*/ -> SKIP TO (MARK 1)
-3 /*+ : That didn't work out...*/
+3 /*+ : That didn\'t work out...*/
 
 6. [The rebels march on London and seek to destroy all symbols of royalty.] 1381
 
@@ -124,7 +124,7 @@ You are ten, and even if you are the rightfull king, you are a bit too young to 
 
 1 -> Wait patiently
 2 -> Try to invade France again
-3 -> Turn you attention towards France's ally, Scotland +
+3 -> Turn you attention towards France\'s ally, Scotland +
 
 1 /* At least, nothing bad can happen */ -> SKIP TO (MARK 2)
 2 /* Your invasion failed, but you survived and returned to England.*/

@@ -60,19 +60,19 @@
 
                 <p>The financial pressure is really hard for your kingdom. What will you do ?</p>
 
-                <div class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('That did not satisfy your folk, though.');window.location.href='./step3.html'">
+                <div id="response1" class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('That did not satisfy your folk, though.');">
                     Return home to fire ministers and judges !
                 </div>
 
-                <div class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('That did not satisfy your folk, though.);window.location.href='./step3.html'">
+                <div id="response2" class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('That did not satisfy your folk, though.');">
                     Ask nicely to your wife, Philippa of Hainault, to lend you her wealth.
                 </div>
 
-                <div class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('You sleep better, now that those malevolent pieces of tissues don't haunt your nightmare. Your castle is really cold, though, and you die of pneumonia shortly after.');window.location.href='./step3.html'">
+                <div id="response3" class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('You sleep better, now that those malevolent pieces of tissues don\'t haunt your nightmare. Your castle is really cold, though, and you die of pneumonia shortly after.');">
                     Sell those ugly tapestries that give you nightmares.
                 </div>
 
-                <p id="response" class="animated fadeInUp"><p>
+                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step3.html'"></div>
             </div>
 
         </main>
