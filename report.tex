@@ -1,0 +1,98 @@
+
+\documentclass{scrreprt}
+\usepackage{listings}
+\usepackage{underscore}
+\usepackage[bookmarks=true]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[top=2cm, bottom=3.5cm, left=3cm, right=3cm]{geometry}
+\usepackage{fontawesome}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+%\usepackage[latin1]{inputenc}
+%\usepackage[francais]{babel}
+\usepackage{graphicx}@
+\usepackage{titlesec}
+\usepackage{multirow}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\hypersetup{
+    bookmarks=false,    % show bookmarks bar?
+    pdftitle={Rapport},    % title
+    pdfauthor={CRAPANZANO/TARDIVON},   % author
+    pdfsubject={TeX and LaTeX},                        % subject of the document
+    pdfkeywords={TeX, LaTeX, graphics, images}, % list of keywords
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=black,       % color of internal links
+    citecolor=black,       % color of links to bibliography
+    filecolor=black,        % color of file links
+    urlcolor=blue,        % color of external links
+    linktoc=section            % only page is linked
+}%
+\def\myversion{1.0}
+\date{}
+%\title{%
+
+%}
+
+\usepackage{hyperref}
+%\usepackage[T1]{fontenc}
+\begin{document}
+%   TEST POUR AFFICHER L'IMAGE TELECOM NANCY
+%\includegraphics[height=50px, width=100px]{Telecomnancy.png}
+%
+\thispagestyle{empty}
+\begin{flushright}
+    \rule{15cm}{3pt}\vskip1,5cm
+    \begin{bfseries}
+        \Huge{Project Report: \\ English}\\
+        \vspace{2cm}
+        \\
+        \vspace{2cm}
+        \Huge{Story-Branch}\\
+
+        \vspace{0.5cm}
+        \LARGE{Version \myversion}\\
+        \begin{flushleft}
+            \vspace{8cm}
+            Github repository : \href{https://github.com/quentin-tardivon/Story-Branch}{\faGithub}~\\
+            \vspace{0.5cm}
+
+            Claire CRAPANZANO\\
+            Quentin TARDIVON\\
+        \end{flushleft}
+    \end{bfseries}
+\end{flushright}
+
+\tableofcontents
+
+\setcounter{page}{0}
+
+\chapter{- Introduction}
+
+Here come the project scope and objectives.
+
+{\let\clearpage\relax \chapter{- User Manual}}
+
+\section{A section}
+Test paragraphe.
+
+
+\section{A section}
+
+
+{\let\clearpage\relax \chapter{- Conclusion}}
+
+
+
+{\let\clearpage\relax \chapter{- Credits:}}
+
+We use informations from the websites list below:
+
+\textit{http://google.com}
+\\
+
+
+\end{document}
