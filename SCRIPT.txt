@@ -8,7 +8,7 @@ Introduction :
 This war was due to two things ; firstly, the status of the duchy of Guyenne (Aquitaine), because even though it belonged to the kings of England, it remained a fief of the French crown, and secondly, the kings of England from 1337 claimed the crown of France.
 
 You are going to play the entire war as the kings of England. The goal is to stick as possible to reality - you'll see how far or close at the end of the game. 
-Don't forget that reality sometimes superseedes fiction !
+Don't forget that reality sometimes superseedes fiction!
 */   
 
 POP-UP : ---> Edward III of England 1337
@@ -20,20 +20,20 @@ You tried to invade Scotland yourself, then. You succeeded, initially, but victo
 Unfortunatly, the Scots were allied with France.*/
 
  [What will you do to resolve this conflict ?] 1337
--> Lay claim for the throne of France !
-/*Congratulations ! You started a Hundred Years War :) */
+-> Lay claim for the throne of France!
+/*Congratulations! You started a Hundred Years War :) */
 
 [You should build an alliance. Who will you chose ?] 1338
 1-> The Portuguese. +
 2-> The Italian.
 3-> The Dane.
 
-1/*+ : Great ! You achieved the control of the Channel.*/
+1/*+ : Great! You achieved the control of the Channel.*/
 2/3 /*Okay. This certainly won't help retaking the Channel, though.*/
 
 [The financial pressure is really hard for your kingdom. What will you do ?] 1340
 
-1-> Return home to fire ministers and judges ! +
+1-> Return home to fire ministers and judges! +
 2-> Ask nicely to your wife, Philippa of Hainault, to lend you her wealth.
 3-> Sell those ugly tapestries that give you nightmares. 
 
@@ -48,7 +48,7 @@ Unfortunatly, the Scots were allied with France.*/
 
 1/*+ : Although you were forced to accept severe limitations, you got politically rid of the Archibishop.*/
 2/* You had a great time, but you were still forced to accept limitations.*/
-3/* Ah, you never thought Bishops could lose their head so easily ! You were still forced to accept limitations, though.*/
+3/* Ah, you never thought Bishops could lose their head so easily! You were still forced to accept limitations, though.*/
 
 [You decide to stage a major offensive. Where will it take place ?] 1346
 
@@ -56,7 +56,7 @@ Unfortunatly, the Scots were allied with France.*/
 2-> In Poitou.
 3-> In Brittany.
 
-1/*+ : It was a success ! */
+1/*+ : It was a success! */
 2/3 ALT-2 : /* That did not go as planned.*/ 
 
 if ALT-2 : {
@@ -68,18 +68,18 @@ if ALT-2 : {
 3-> Make a truce with France.
 
 1/* Your advisors won't let you do that, sadly...*/
-2/* Great ! With this reform, women will surely have more freedom in the future and your country will become a beacon for Women's Right. */
-3/* You can't ! How would it be a 100 years war then?! */
+2/* Great! With this reform, women will surely have more freedom in the future and your country will become a beacon for Women's Right. */
+3/* You can't! How would it be a 100 years war then?! */
 
 }
 
 
-/*Oh no ! The Black Death is striking England !
+/*Oh no! The Black Death is striking England!
 Seems the war is going to wait.*/ 1348
 
 /* For a decade, the war continues, with its heroes, bloodshed and stories.*/
 
-/*Your son won a great battle ! It's 1360, and the King John of France accepts the Treaty of Calais, which gives independance to the duchy of Guyenne.*/
+/*Your son won a great battle! It's 1360, and the King John of France accepts the Treaty of Calais, which gives independance to the duchy of Guyenne.*/
 
 /*1377 : Alas, you die.*/
 
@@ -91,12 +91,12 @@ You are ten, and even if you are the rightfull king, you are a bit too young to 
 
 [Here comes your first challenge as a king : the Peasant's Revolt, a major uprising. The people from all the southern border rise against serfdom. What will you do ?] 1381
 
-1 -> Have them all beheaded, like the peasants they are !
+1 -> Have them all beheaded, like the peasants they are!
 2 -> Acceded to their demand right now, even though you are not threatened yet.
 3 -> Send representatives of the royal government to persuade the rebels advancing on London to go back home. +
 
 1 /* You reap what you sow ; a larger regiment of rebel find you in your castle, and let's say it isn't pretty.*/ -> GAME OVER
-2 ALT-3 /* Violence is mostly avoided and this crisis defused, congratulations !*/ -> SKIP TO (MARK 1)
+2 ALT-3 /* Violence is mostly avoided and this crisis defused, congratulations!*/ -> SKIP TO (MARK 1)
 3 /*+ : That didn't work out...*/
 
 IF NOT ALT-3 {
@@ -104,7 +104,7 @@ IF NOT ALT-3 {
 [The rebels march on London and seek to destroy all symbols of royalty.] 1381
 
 1 -> Invite everyone to a cup of tea to calm their spirit.
-2 -> Quick, hide in the Tower of London ! +
+2 -> Quick, hide in the Tower of London! +
 3 -> Abolish monarchy to please them.
 
 1/3 /* It works at first, but your allies decide to kill the rebels and their leaders. Well, everything is in order now.*/
@@ -142,7 +142,7 @@ ALT-4 {
 [You need money to continue the war, and the chancellor is taxing everything and everyone. The parliament refuses to let him do it. What is your stance ?] 1386
 
 1 -> You agree, because you need to be exemplary.
-2 -> You refuse ! You will not dismiss as much as a scullion from your kitchen !
+2 -> You refuse! You will not dismiss as much as a scullion from your kitchen!
 3 -> You try to stay neutral.
 
 1/2/3 /*...Your were forced to accept taxation when they threatened your position.*/
@@ -155,7 +155,7 @@ ALT-4 {
 
 
 1 /* That is not a great idea...*/
-2 /* That was a great idea !*/
+2 /* That was a great idea!*/
 3 /* You agree to a truce after 3 years of negociation, and you are to marry Isabella, the daughter of Charles VI of France, who is 6 years old as of yet.*/
 
 
@@ -169,10 +169,10 @@ This leads to you being overthownby Henry Bolingbroke, who becomes King Henry IV
 ---> Henry IV 1399
 
 
-[Congratulations, you are the new King of England ! Unfortunately, there are rebellions everywhere, trying to have Richard II restored as King. What will you do ?]
+[Congratulations, you are the new King of England! Unfortunately, there are rebellions everywhere, trying to have Richard II restored as King. What will you do ?]
 
 
-1 -> Have the Earls involved executed ! + 
+1 -> Have the Earls involved executed! + 
 2 -> Abdicate to Richard II to please your people.
 3 -> Have Richard II tell to the people that he doesn't want to be King anymore.
 
@@ -180,15 +180,15 @@ This leads to you being overthownby Henry Bolingbroke, who becomes King Henry IV
 2,3 /*...You know that Richard is dead, right ? You weren't paying attention, were you ?*/ -> GAME OVER ?
 
 
-[It's time to deal with the Parliament ! You could get one of these law legalized, which one do you choose ?] 1401 
+[It's time to deal with the Parliament! You could get one of these law legalized, which one do you choose ?] 1401 
 
 
-1 -> De pluriores femina matrimonium : you can now be married to multiple women at the same time !
-2 -> De haeretico comburendo : you can now burn heretics at the stake ! +
-3 -> De non salvete, battuere : you can now hit people who don't salute you back !
+1 -> De pluriores femina matrimonium : you can now be married to multiple women at the same time!
+2 -> De haeretico comburendo : you can now burn heretics at the stake! +
+3 -> De non salvete, battuere : you can now hit people who don't salute you back!
 
 1 /*Well, that's not really what the Church teaches, right ?*/ 
-2 /* + : At long last, a law that truly embodies the Spirit of the Church ! You can be proud !*/
+2 /* + : At long last, a law that truly embodies the Spirit of the Church! You can be proud!*/
 3 /*You'd think it would be a great idea, but people are too attached to their rudeness.*/ 
 
 /*The rest of your life is plagued by illness, and you die in 1413, and your firstborn son Henry V, aged 27, takes over.*/
@@ -204,29 +204,29 @@ This leads to you being overthownby Henry Bolingbroke, who becomes King Henry IV
 3 -> You ask everybody to work together and to be friend, because the power is friendship is above all the others one.
 
 1,3 /*...That was not very wise, and you get murdered by one of your numerous rivals to the throne almost right away*/ (GAME OVER)
-2 /* That was wise ! If you continue like this, your reign will surely be devoided of all rebellions !*/
+2 /* That was wise! If you continue like this, your reign will surely be devoided of all rebellions!*/
 
 
 
-[You've got a war to fight ! What do you do ?] 1415
+[You've got a war to fight! What do you do ?] 1415
 
 1 -> Try to make an economic blocus to starve France.
 2 -> March with your army towards Calais, despite the warning of your council... +
 3 -> See with the Church to cast scorn on the French so that they loose all will to fight.
 
 1 /* You don't have the power to do that, but you could have been on to something. */ -> SKIP TO MARK 3
-2 /* Despite all odds, you win ! You win at Agincourt, and that takes you one step further in the conquest of the French Throne.*/
+2 /* Despite all odds, you win! You win at Agincourt, and that takes you one step further in the conquest of the French Throne.*/
 3 /* You forgot that you don't have the same Church as France, but it was a good idea.*/ -> SKIP TO MARK 3
 
 
-[You have a short respite with such a victory, so, it's language reform time ! Which one will you use in the government as of now ?] 1417
+[You have a short respite with such a victory, so, it's language reform time! Which one will you use in the government as of now ?] 1417
 
 
 1 -> English, obviously. +
 2 -> Latin, because everything will seem so subtle.
 3 -> French, to appease your ennemies.
 
-1 /*That's fitting for England !*/
+1 /*That's fitting for England!*/
 2,3 /* Your government appreciate your subtlety.*/ 
 
 (MARK 3)
@@ -237,7 +237,7 @@ This leads to you being overthownby Henry Bolingbroke, who becomes King Henry IV
 2 -> You butcher them.
 3 -> You refuse to let them pass and let them die of starvation. +
 
-1 /* That will be a boon for your reputation ! */
+1 /* That will be a boon for your reputation! */
 2 /* You horrible, horrible person. */
 3 /* Well, war never changes.*/ +
 
@@ -246,7 +246,7 @@ This leads to you being overthownby Henry Bolingbroke, who becomes King Henry IV
 
 [Your brother Thomas of Lancaster was defeated at the Battle of Beaugé and killed. What do you do ?] 1421
 
-1 -> You sail to France right away to retrieve the situation ! +
+1 -> You sail to France right away to retrieve the situation! +
 2 -> You stay in England and agree to not attack France again. 
 3 -> You drink to his memory.
 
@@ -258,3 +258,67 @@ This leads to you being overthownby Henry Bolingbroke, who becomes King Henry IV
 ---> Henry VI
 
 /* You inherit the Crown of England at the age of 9 months, and become titular King of France shortly thereafter. A regency council is put in place, and you begin to acquire independence in 1437, at the age of 16. */
+
+[England has lost its momentum in the war, and the French have won multiple battles with the help of a certain Joan of Arc.] 1437
+
+1 -> One more reason to continue the war!
+2 -> Wait and see.
+3 -> You'll favor a policy of peace, then. +
+
+1,2 ALT-6 /* Okay then!*/
+3 /* That is commendable.*/
+
+IF (ALT-6) {
+
+[What do you decide to do ?]
+
+1 -> Go to France and wage war with your army!
+2 -> Send your precious advisor, William de la Pole, First Duke of Suffolk, to wage war in your stead.
+3 -> Go to France and try to assassinate France's dignitaries.
+
+1,3 /*You die in a sea storm while sailing to France.*/ -> GAME OVER
+2 /*He dies in a sea storm while sailing to France. You are devasted, and resolve to ensure peace by marrying the French King's niece, Margaret of Anjou.*/ -> SKIP TO MARK 4
+	
+}
+
+IF NOT (ALT-6) {
+
+[What would be the best way to ensure peace ?] 1445
+
+1 -> Offer them batch upon batch of porridge!
+2 -> Marry the niece of the King of (what remain of) France, Margaret of Anjou. +
+3 -> Ask for France and England to be reunited into one country, and ask the people to elect their preferred leader.
+
+
+1 /*They seem to be pleased, and the King of France offers you the hand of his niece, Margaret of Anjou.*/
+2 /*You do, and you yield Anjou and Maine which were part of your territories.*/
+3 /* You are murdered by your own council for your preposterous idea.*/ -> GAME OVER 
+
+}
+
+[Your monarchy is becoming more and more impopular, culminating in a Commons campaign against your favortie advisor, William de la Pole, First Duke of Suffolk.]
+
+1 -> You decide to execute him to please your people.
+2 -> You do nothing, because he is dear to your heart!
+3 -> You exile him. +
+
+1 /* They are pleased!*/
+2 /*...That doesn't detter the Parliament from exling him - he dies on the way due to an interception of his ship.
+3 /* It is magnanimous, but he dies murdered on the way to his exile. */
+
+
+(MARK 4)
+
+[The French have retaken Normandy entirely, and a rebels have attacked London.] 1450
+
+1 -> Focus on France and retake what you lost!
+2 -> Return to London, and crush the rebellion. +
+3 -> Do nothing, as the end is near.
+
+1 /* You fail, and die.*/ -> GAME OVER
+2 /* That works, but you can't prevent loosing the war with France!*/
+3 /* You are insightful for this game! A lot less for real life ; you are exiled to France by your people, and you die there in batlle. */ -> GAME OVER
+
+/* Calais remains the only Englsih-controlled territory in France. Experiencing a mental breakdown, you put an end to the Hundred Years War.*/
+
+/*Thank you for playing ! :)*/
