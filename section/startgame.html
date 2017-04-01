@@ -45,13 +45,16 @@
                     const {
                         remote
                     } = require('electron');
+                    remote.getGlobal('sharedObj').score = 0;
                     document.write('<p id="score">Your Score: ' + remote.getGlobal('sharedObj').score + '</p>');
                 </script>
                 <img id="portrait" src="../assets/edward3.png" class="portrait">
 
                 <div class="mdl-tooltip mdl-tooltip--large" for="portrait">
-                  Richard II
+                  Edward III
                 </div>
+
+                <p>Currently in 1337</p>
             </div>
         </nav>
         <main class="demo-main">
@@ -63,7 +66,7 @@
                 You tried to invade Scotland yourself, then. You succeeded, initially, but victories proved hard to sustain, so you agreed to a truce.
                 Unfortunatly, the Scots were allied with France.</p>
 
-                <div id="response1" class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('Congratulations ! You started a Hundred Year War!', './step1.html')">
+                <div id="response1" class="mdc-ripple-surface demo-surface" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('Congratulations ! You started a Hundred Year War!', './step1.html')">
                     Lay claim for the throne of France !
                 </div>
 

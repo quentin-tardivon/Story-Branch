@@ -52,6 +52,8 @@
                 <div class="mdl-tooltip mdl-tooltip--large" for="portrait">
                   Richard II
                 </div>
+
+                <p>Currently in 1346</p>
             </div>
         </nav>
         <main class="demo-main">
@@ -60,19 +62,20 @@
 
                 <p>You decide to stage a major offensive. Where will it take place ?</p>
 
-                <div id="response1" class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('It was a success !');">
+                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('It was a success !');">
                     In Normandy.
                 </div>
 
-                <div id="response2" class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('That did not go as planned.');">
+                <div id="response2" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printBadResponse('That did not go as planned.');">
                     In Poitou.
                 </div>
 
-                <div id="response3" class="mdc-ripple-surface demo-surface mdc-elevation--z2" style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('That did not go as planned.');">
+                <div id="response3" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printBadResponse('That did not go as planned.');">
                     In Brittany.
                 </div>
 
-                <div id="response" class="animated fadeInUp" onclick="window.location.href='./death.html'"></div>
+                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step6.html'"></div>
+                <div id="badResponse" class="animated fadeInUp" onclick="window.location.href='./step5.html'"></div>
             </div>
 
         </main>

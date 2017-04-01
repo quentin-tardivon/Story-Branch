@@ -47,34 +47,27 @@
                     } = require('electron');
                     document.write('<p id="score">Your Score: ' + remote.getGlobal('sharedObj').score + '</p>');
                 </script>
-                <img id="portrait" src="../assets/edward3.png" class="portrait">
+                <img id="portrait" src="../assets/richard2.png" class="portrait">
 
                 <div class="mdl-tooltip mdl-tooltip--large" for="portrait">
                   Richard II
                 </div>
 
-                <p>Currently in 1341</p>
+                <p>Currently in 1377</p>
             </div>
         </nav>
         <main class="demo-main">
 
             <div class="content-center animated fadeInRight" style="margin-top:80px; margin-left:10px;">
 
-                <p>A stand-off ensues between you and your Archibishop of Canterbury, John de Stratford. How do you react ?</p>
+                <p>You are now Richard II of England. You were born in 1367, and are one of the grand-children of Edward III, and legitimate heir to the throne of England.
+                You are ten, and even if you are the rightfull king, you are a bit too young to reign alone ; you are assisted by your uncle, John of Gaunt, who is not really appreciated by the court.</p>
 
-                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('Although you were forced to accept severe limitations, you got politically rid of the Archibishop.');">
-                    Strip of their title his relatives and imprison them.
+                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('It was a success !');">
+                    Try to rule anyway.
                 </div>
 
-                <div id="response2" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('You had a great time, but you were still forced to accept limitations.');">
-                    Take tea together and try to lay things out.
-                </div>
-
-                <div id="response3" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('Ah, you never thought Bishops could lose their head so easily ! You were still forced to accept limitations, though.');">
-                    Have him beheaded.
-                </div>
-
-                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step4.html'"></div>
+                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step8.html'"></div>
             </div>
 
         </main>
