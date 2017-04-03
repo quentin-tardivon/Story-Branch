@@ -26,7 +26,7 @@ function createWindow () {
   }))
 
   // Open the DevTools with npm run debug
-win.webContents.openDevTools()
+//win.webContents.openDevTools()
 
 
 
