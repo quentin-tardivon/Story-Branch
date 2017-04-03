@@ -47,34 +47,25 @@
                     } = require('electron');
                     document.write('<p id="score">Your Score: ' + remote.getGlobal('sharedObj').score + '</p>');
                 </script>
-                <img id="portrait" src="../assets/henry4.png" class="portrait">
+                <img id="portrait" src="../assets/henry6.png" class="portrait">
 
                 <div class="mdl-tooltip mdl-tooltip--large" for="portrait">
-                  Henry IV
+                  Henry VI
                 </div>
 
-                <p>Currently in 1401</p>
+                <p>Currently in 1450</p>
             </div>
         </nav>
         <main class="demo-main">
 
             <div class="content-center animated fadeInRight" style="margin-top:80px; margin-left:10px;">
 
-                <p>It's time to deal with the Parliament! You could get one of these law legalized, which one do you choose ?</p>
+                <p>Calais remains the only Englsih-controlled territory in France. Experiencing a mental breakdown, you put an end to the Hundred Years War</p>
 
-                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('Well, that's not really what the Church teaches, right ?');">
-                    De pluriores femina matrimonium : you can now be married to multiple women at the same time!
+                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="window.location.href='./death.html'">
+                    Thank you for playing ! :)
                 </div>
 
-                <div id="response2" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('At long last, a law that truly embodies the Spirit of the Church! You can be proud!');">
-                    De haeretico comburendo : you can now burn heretics at the stake!
-                </div>
-
-                <div id="response3" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('You'd think it would be a great idea, but people are too attached to their rudeness.');">
-                    De non salvete, battuere : you can now hit people who don't salute you back!
-                </div>
-
-                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step17.html'"></div>
 
             </div>
 

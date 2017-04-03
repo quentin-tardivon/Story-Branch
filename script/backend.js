@@ -48,6 +48,24 @@ function printBadResponse(response, link) {
 
 }
 
+function printAltResponse(response, link) {
+  document.getElementById("altResponse").innerHTML = response;
+  document.getElementById("altResponse").className = "mdc-ripple-surface demo-surface";
+
+  if (document.getElementById("response1") != null) {
+      document.getElementById("response1").onclick = "";
+  }
+
+  if (document.getElementById("response2") != null) {
+      document.getElementById("response2").onclick = "";
+  }
+
+  if (document.getElementById("response3") != null) {
+      document.getElementById("response3").onclick = "";
+  }
+
+}
+
 function readText(text) {
   var msg = new SpeechSynthesisUtterance();
   var voices = window.speechSynthesis.getVoices();

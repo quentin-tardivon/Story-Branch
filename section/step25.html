@@ -47,34 +47,35 @@
                     } = require('electron');
                     document.write('<p id="score">Your Score: ' + remote.getGlobal('sharedObj').score + '</p>');
                 </script>
-                <img id="portrait" src="../assets/henry4.png" class="portrait">
+                <img id="portrait" src="../assets/henry6.png" class="portrait">
 
                 <div class="mdl-tooltip mdl-tooltip--large" for="portrait">
-                  Henry IV
+                  Henry VI
                 </div>
 
-                <p>Currently in 1401</p>
+                <p>Currently in 1445</p>
             </div>
         </nav>
         <main class="demo-main">
 
             <div class="content-center animated fadeInRight" style="margin-top:80px; margin-left:10px;">
 
-                <p>It's time to deal with the Parliament! You could get one of these law legalized, which one do you choose ?</p>
+                <p>Your monarchy is becoming more and more impopular, culminating in a Commons campaign against your favortie advisor, William de la Pole, First Duke of Suffolk.</p>
 
-                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('Well, that's not really what the Church teaches, right ?');">
-                    De pluriores femina matrimonium : you can now be married to multiple women at the same time!
+                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('They are pleased!');">
+                    You decide to execute him to please your people.
                 </div>
 
-                <div id="response2" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('At long last, a law that truly embodies the Spirit of the Church! You can be proud!');">
-                    De haeretico comburendo : you can now burn heretics at the stake!
+                <div id="response2" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('...That doesn't detter the Parliament from exling him - he dies on the way due to an interception of his ship.');">
+                    You do nothing, because he is dear to your heart!
                 </div>
 
-                <div id="response3" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('You'd think it would be a great idea, but people are too attached to their rudeness.');">
-                    De non salvete, battuere : you can now hit people who don't salute you back!
+                <div id="response3" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('It is magnanimous, but he dies murdered on the way to his exile.');">
+                  You exile him.
                 </div>
 
-                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step17.html'"></div>
+                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step26.html'"></div>
+
 
             </div>
 

@@ -47,34 +47,36 @@
                     } = require('electron');
                     document.write('<p id="score">Your Score: ' + remote.getGlobal('sharedObj').score + '</p>');
                 </script>
-                <img id="portrait" src="../assets/henry4.png" class="portrait">
+                <img id="portrait" src="../assets/henry6.png" class="portrait">
 
                 <div class="mdl-tooltip mdl-tooltip--large" for="portrait">
-                  Henry IV
+                  Henry VI
                 </div>
 
-                <p>Currently in 1401</p>
+                <p>Currently in 1450</p>
             </div>
         </nav>
         <main class="demo-main">
 
             <div class="content-center animated fadeInRight" style="margin-top:80px; margin-left:10px;">
 
-                <p>It's time to deal with the Parliament! You could get one of these law legalized, which one do you choose ?</p>
+                <p>The French have retaken Normandy entirely, and a rebels have attacked London.</p>
 
-                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('Well, that's not really what the Church teaches, right ?');">
-                    De pluriores femina matrimonium : you can now be married to multiple women at the same time!
+                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printBadResponse('You fail, and die.');">
+                    Focus on France and retake what you lost!
                 </div>
 
-                <div id="response2" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('At long last, a law that truly embodies the Spirit of the Church! You can be proud!');">
-                    De haeretico comburendo : you can now burn heretics at the stake!
+                <div id="response2" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('That works, but you can't prevent loosing the war with France!');">
+                    Return to London, and crush the rebellion.
                 </div>
 
-                <div id="response3" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('You'd think it would be a great idea, but people are too attached to their rudeness.');">
-                    De non salvete, battuere : you can now hit people who don't salute you back!
+                <div id="response3" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printBadResponse('You are insightful for this game! A lot less for real life ; you are exiled to France by your people, and you die there in battle.');">
+                  Do nothing, as the end is near.
                 </div>
 
-                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step17.html'"></div>
+                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step27.html'"></div>
+                  <div id="badResponse" class="animated fadeInUp" onclick="window.location.href='./death.html'"></div>
+
 
             </div>
 

@@ -21,6 +21,13 @@
 
             <div class="bm_inner_container" id="test"></div>
 
+            <script>
+                const {
+                    remote
+                } = require('electron');
+                document.write('<h2 class="mdc-typography--display2 animated zoomIn">Your score: ' + remote.getGlobal('sharedObj').score + ' on 16</h2>');
+            </script>
+
             <button class="mdc-button mdc-button--raised"  onclick="window.location.href='intro.html'">
                 Retry
             </button>

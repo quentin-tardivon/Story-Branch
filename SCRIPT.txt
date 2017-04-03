@@ -1,15 +1,15 @@
-SCRIPT 
+SCRIPT
 
 Beginning : Hundred Years War
 
-Introduction : 
+Introduction :
 
 /* The Hundred Years War is a conflit that lasted more than 100 years (116 to be exact), from 1337 to 1453, between England and France.
 This war was due to two things ; firstly, the status of the duchy of Guyenne (Aquitaine), because even though it belonged to the kings of England, it remained a fief of the French crown, and secondly, the kings of England from 1337 claimed the crown of France.
 
-You are going to play the entire war as the kings of England. The goal is to stick as possible to reality - you'll see how far or close at the end of the game. 
+You are going to play the entire war as the kings of England. The goal is to stick as possible to reality - you'll see how far or close at the end of the game.
 Don't forget that reality sometimes superseedes fiction!
-*/   
+*/
 
 POP-UP : ---> Edward III of England 1337
 
@@ -35,7 +35,7 @@ Unfortunatly, the Scots were allied with France.*/
 
 1-> Return home to fire ministers and judges! +
 2-> Ask nicely to your wife, Philippa of Hainault, to lend you her wealth.
-3-> Sell those ugly tapestries that give you nightmares. 
+3-> Sell those ugly tapestries that give you nightmares.
 
 1/2/*That did not satisfy your folk, though.*/
 3 : ALT-1 /*You sleep better, now that those malevolent pieces of tissues don't haunt your nightmare. Your castle is really cold, though, and you die of pneumonia shortly after*/ -> GAME OVER
@@ -44,7 +44,7 @@ Unfortunatly, the Scots were allied with France.*/
 
 1-> Strip of their title his relatives and imprison them. +
 2-> Take tea together and try to lay things out.
-3-> Have him beheaded. 
+3-> Have him beheaded.
 
 1/*+ : Although you were forced to accept severe limitations, you got politically rid of the Archibishop.*/
 2/* You had a great time, but you were still forced to accept limitations.*/
@@ -57,7 +57,7 @@ Unfortunatly, the Scots were allied with France.*/
 3-> In Brittany.
 
 1/*+ : It was a success! */
-2/3 ALT-2 : /* That did not go as planned.*/ 
+2/3 ALT-2 : /* That did not go as planned.*/
 
 if ALT-2 : {
 
@@ -114,7 +114,7 @@ IF NOT ALT-3 {
 
 (MARK 1)
 
-/*The crisis is past now. Due to the need for allies, you marry Anne of Bohemia, daughter of the Holy Roman Emperor.*/ 
+/*The crisis is past now. Due to the need for allies, you marry Anne of Bohemia, daughter of the Holy Roman Emperor.*/
 
 [Let's get back to the war with France. What do you want to do ?] 1385
 
@@ -127,7 +127,7 @@ IF NOT ALT-3 {
 3 ALT-4 /* The court is pleased, as is France! You begin the negocciations right away.*/
 
 ALT-4 {
-	
+
 [France demand to recognize it has the best culture, cooking and for you to forsake tea.]
 
 1 -> Never!
@@ -160,11 +160,11 @@ ALT-4 {
 
 
 
-/*It's the end of the 1390s, and you decide to take matters in yiur own hands - you thus create a period who will be referred to as a tyranny.
+/*It's the end of the 1390s, and you decide to take matters in your own hands - you thus create a period who will be referred to as a tyranny.
 In fact, you execute several of your concillors, you exile others and give yourself absolute rights.
 ...
 This leads to you being overthownby Henry Bolingbroke, who becomes King Henry IV. You die in jail at the age of 33.*/ 1399
- 
+
 
 ---> Henry IV 1399
 
@@ -172,7 +172,7 @@ This leads to you being overthownby Henry Bolingbroke, who becomes King Henry IV
 [Congratulations, you are the new King of England! Unfortunately, there are rebellions everywhere, trying to have Richard II restored as King. What will you do ?]
 
 
-1 -> Have the Earls involved executed! + 
+1 -> Have the Earls involved executed! +
 2 -> Abdicate to Richard II to please your people.
 3 -> Have Richard II tell to the people that he doesn't want to be King anymore.
 
@@ -180,23 +180,23 @@ This leads to you being overthownby Henry Bolingbroke, who becomes King Henry IV
 2,3 /*...You know that Richard is dead, right ? You weren't paying attention, were you ?*/ -> GAME OVER ?
 
 
-[It's time to deal with the Parliament! You could get one of these law legalized, which one do you choose ?] 1401 
+[It's time to deal with the Parliament! You could get one of these law legalized, which one do you choose ?] 1401
 
 
 1 -> De pluriores femina matrimonium : you can now be married to multiple women at the same time!
 2 -> De haeretico comburendo : you can now burn heretics at the stake! +
 3 -> De non salvete, battuere : you can now hit people who don't salute you back!
 
-1 /*Well, that's not really what the Church teaches, right ?*/ 
+1 /*Well, that's not really what the Church teaches, right ?*/
 2 /* + : At long last, a law that truly embodies the Spirit of the Church! You can be proud!*/
-3 /*You'd think it would be a great idea, but people are too attached to their rudeness.*/ 
+3 /*You'd think it would be a great idea, but people are too attached to their rudeness.*/
 
 /*The rest of your life is plagued by illness, and you die in 1413, and your firstborn son Henry V, aged 27, takes over.*/
 
 
 ---> Henry V 1413
 
-[England is divided as of now, due to the numerrous rebellions that happened during your father's reign. What do you do about that ?] 
+[England is divided as of now, due to the numerrous rebellions that happened during your father's reign. What do you do about that ?]
 
 
 1 -> Nothing.
@@ -227,11 +227,11 @@ This leads to you being overthownby Henry Bolingbroke, who becomes King Henry IV
 3 -> French, to appease your ennemies.
 
 1 /*That's fitting for England!*/
-2,3 /* Your government appreciate your subtlety.*/ 
+2,3 /* Your government appreciate your subtlety.*/
 
 (MARK 3)
 
-[You lead a larger scale campaign, and besiege Rouen. Unable to sustain the needs for food, the inhabitants decide to expell women and children.] 1417 
+[You lead a larger scale campaign, and besiege Rouen. Unable to sustain the needs for food, the inhabitants decide to expell women and children.] 1417
 
 1 -> You let them walk away.
 2 -> You butcher them.
@@ -247,7 +247,7 @@ This leads to you being overthownby Henry Bolingbroke, who becomes King Henry IV
 [Your brother Thomas of Lancaster was defeated at the Battle of Beaugé and killed. What do you do ?] 1421
 
 1 -> You sail to France right away to retrieve the situation! +
-2 -> You stay in England and agree to not attack France again. 
+2 -> You stay in England and agree to not attack France again.
 3 -> You drink to his memory.
 
 1 /* You fight and win, but you contract dissentry and die brutally, at the age of 36.*/
@@ -278,7 +278,7 @@ IF (ALT-6) {
 
 1,3 /*You die in a sea storm while sailing to France.*/ -> GAME OVER
 2 /*He dies in a sea storm while sailing to France. You are devasted, and resolve to ensure peace by marrying the French King's niece, Margaret of Anjou.*/ -> SKIP TO MARK 4
-	
+
 }
 
 IF NOT (ALT-6) {
@@ -292,7 +292,7 @@ IF NOT (ALT-6) {
 
 1 /*They seem to be pleased, and the King of France offers you the hand of his niece, Margaret of Anjou.*/
 2 /*You do, and you yield Anjou and Maine which were part of your territories.*/
-3 /* You are murdered by your own council for your preposterous idea.*/ -> GAME OVER 
+3 /* You are murdered by your own council for your preposterous idea.*/ -> GAME OVER
 
 }
 
@@ -317,7 +317,7 @@ IF NOT (ALT-6) {
 
 1 /* You fail, and die.*/ -> GAME OVER
 2 /* That works, but you can't prevent loosing the war with France!*/
-3 /* You are insightful for this game! A lot less for real life ; you are exiled to France by your people, and you die there in batlle. */ -> GAME OVER
+3 /* You are insightful for this game! A lot less for real life ; you are exiled to France by your people, and you die there in battle. */ -> GAME OVER
 
 /* Calais remains the only Englsih-controlled territory in France. Experiencing a mental breakdown, you put an end to the Hundred Years War.*/
 

@@ -47,34 +47,36 @@
                     } = require('electron');
                     document.write('<p id="score">Your Score: ' + remote.getGlobal('sharedObj').score + '</p>');
                 </script>
-                <img id="portrait" src="../assets/richard2.png" class="portrait">
+                <img id="portrait" src="../assets/henry6.png" class="portrait">
 
                 <div class="mdl-tooltip mdl-tooltip--large" for="portrait">
-                  Richard II
+                  Henry VI
                 </div>
 
-                <p>Currently in 1381</p>
+                <p>Currently in 1445</p>
             </div>
         </nav>
         <main class="demo-main">
 
             <div class="content-center animated fadeInRight" style="margin-top:80px; margin-left:10px;">
 
-                <p>Here comes your first challenge as a king : the Peasant's Revolt, a major uprising. The people from all the southern border rise against serfdom. What will you do ?</p>
+                <p>What would be the best way to ensure peace ?</p>
 
-                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('Although you were forced to accept severe limitations, you got politically rid of the Archibishop.');">
-                    Have them all beheaded, like the peasants they are!
+                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse(' They seem to be pleased, and the King of France offers you the hand of his niece, Margaret of Anjou.');">
+                    Offer them batch upon batch of porridge!
                 </div>
 
-                <div id="response2" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('You had a great time, but you were still forced to accept limitations.');">
-                    Acceded to their demand right now, even though you are not threatened yet.
+                <div id="response2" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printResponse('You do, and you yield Anjou and Maine which were part of your territories.');">
+                    Marry the niece of the King of (what remain of) France, Margaret of Anjou.
                 </div>
 
-                <div id="response3" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('Ah, you never thought Bishops could lose their head so easily ! You were still forced to accept limitations, though.');">
-                    Send representatives of the royal government to persuade the rebels advancing on London to go back home.
+                <div id="response3" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printBadResponse('You are murdered by your own council for your preposterous idea.');">
+                  Ask for France and England to be reunited into one country, and ask the people to elect their preferred leader.
                 </div>
 
-                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step4.html'"></div>
+                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step25.html'"></div>
+                <div id="badResponse" class="animated fadeInUp" onclick="window.location.href='./death.html'"></div>
+
             </div>
 
         </main>

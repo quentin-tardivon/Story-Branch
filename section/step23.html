@@ -47,32 +47,38 @@
                     } = require('electron');
                     document.write('<p id="score">Your Score: ' + remote.getGlobal('sharedObj').score + '</p>');
                 </script>
-                <img id="portrait" src="../assets/edward3.png" class="portrait">
+                <img id="portrait" src="../assets/henry6.png" class="portrait">
 
                 <div class="mdl-tooltip mdl-tooltip--large" for="portrait">
-                  Richard II
+                  Henry VI
                 </div>
+
+                <p>Currently in 1437</p>
             </div>
         </nav>
         <main class="demo-main">
 
             <div class="content-center animated fadeInRight" style="margin-top:80px; margin-left:10px;">
 
-                <p>A stand-off ensues between you and your Archibishop of Canterbury, John de Stratford. How do you react ?</p>
+                <p>You inherit the Crown of England at the age of 9 months, and become titular King of France shortly thereafter. A regency council is put in place, and you begin to acquire independence in 1437, at the age of 16.</p>
 
-                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('Although you were forced to accept severe limitations, you got politically rid of the Archibishop.');">
-                    Strip of their title his relatives and imprison them.
+                <p>England has lost its momentum in the war, and the French have won multiple battles with the help of a certain Joan of Arc.</p>
+
+                <div id="response1" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printAltResponse(' Okay then!');">
+                    One more reason to continue the war!
                 </div>
 
-                <div id="response2" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('You had a great time, but you were still forced to accept limitations.');">
-                    Take tea together and try to lay things out.
+                <div id="response2" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="printAltResponse('Okay then!');">
+                    Wait and see.
                 </div>
 
-                <div id="response3" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('Ah, you never thought Bishops could lose their head so easily ! You were still forced to accept limitations, though.');">
-                    Have him beheaded.
+                <div id="response3" class="mdc-ripple-surface demo-surface " style="background-color:#95989A;" tabindex="0" onclick="increaseScore();printResponse('That is commendable.');">
+                  You'll favor a policy of peace, then.
                 </div>
 
-                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step4.html'"></div>
+                <div id="response" class="animated fadeInUp" onclick="window.location.href='./step24.html'"></div>
+                <div id="altResponse" class="animated fadeInUp" onclick="window.location.href='./step24bis.html'"></div>
+
             </div>
 
         </main>
