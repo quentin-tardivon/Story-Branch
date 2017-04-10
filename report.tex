@@ -71,13 +71,13 @@
 \chapter{- Introduction}
 
 For our English Project, we did not wish to make a tool whose purpose would have been to improve our grammar, vocabulary or pronunciation, but rather an application which would enlarge our knowledge about England's history. We were also inspired by \textit{Reigns}, a game in which you are a monarch and you have to take decisions to rule your country and make everyone happy to stay on the throne.
-With this in mind, we sought to conciliate both by choosing to apply a derivative of this game principle on an era pretty well unknown : the Hundred Years War - which has to added benefit of being part of France's history too. That is how we conceived \textit{Story Branch}, our application. 
+With this in mind, we sought to conciliate both by choosing to apply a derivative of this game principle on an era pretty well unknown : the Hundred Years War - which has to added benefit of being part of France's history too. That is how we conceived \textit{Story Branch}, our application.
 
 {\let\clearpage\relax \chapter{- User Manual}}
 
 \section{Preliminary searches}
 
-\subsection*{}To find an idea for this project, we brainstormed after having agreed not to make an application that would be too scholastic ; namely, applications basing themselves on the memorization of words or grammar point. We found the idea of a game about English history very fitting, as it would make people learn about its culture a bit, which we consider to be also important when learning a foreign language. 
+\subsection*{}To find an idea for this project, we brainstormed after having agreed not to make an application that would be too scholastic ; namely, applications basing themselves on the memorization of words or grammar point. We found the idea of a game about English history very fitting, as it would make people learn about its culture a bit, which we consider to be also important when learning a foreign language.
 
 \subsection*{} We had \textit{Reigns} in mind when we began, but the system with several bars representing the clergy, people and military seemed too complicated to implement on such a short time, notwithstanding the fact that every event is accompanied by an illustration - \textit{Reigns} is, after all, a paying game made by a real company. So, we wanted to keep the idea of being a monarch making choices, but ruled out the "Yes/No" system of Reigns to end up with three choices for each event ; we made a script for that entirely from scratch, but we will get to that latter.
 
@@ -95,35 +95,35 @@ We almost immediately settled on the name \textit{Story Branch} because of a few
 \begin{figure}
 	\includegraphics[scale=0.7]{Edward3.jpg}
 	\begin{center}
-		Decision tree for Edward III 
+		Decision tree for Edward III
 	\end{center}
 \end{figure}
 
 \begin{figure}
 	\includegraphics[scale=0.7]{Richard2.jpg}
 	\begin{center}
-		Decision tree for Richard II 
+		Decision tree for Richard II
 	\end{center}
 \end{figure}
 
 \begin{figure}
 	\includegraphics{Henry4Paint.jpg}
 	\begin{center}
-		Decision tree for Henry IV 
+		Decision tree for Henry IV
 	\end{center}
 \end{figure}
 
 \begin{figure}
 	\includegraphics[scale=0.8]{Henry5.jpg}
 	\begin{center}
-		Decision tree for Henry V 
+		Decision tree for Henry V
 	\end{center}
 \end{figure}
 
 \begin{figure}
 	\includegraphics[scale=0.85]{Henry6.jpg}
 	\begin{center}
-		Decision tree for Henry VI 
+		Decision tree for Henry VI
 	\end{center}
 \end{figure}
 
@@ -160,8 +160,29 @@ The true answer would be " ", and only that would earn you points for your score
 {\let\clearpage\relax \chapter{- Technical Documentation}}
 
 \section{Les technologies utilisées}
+Le but de ce projet était également de découvrir de nouvelles technologies, ainsi nous avons choisie de développer l'application
+sur les technologies Web qui sont en évolution constante. La volonté de pouvoir utilisé l'application hors ligne et de pouvoir
+la déployer facilement sur des machines de toutes distributions nous a amené à se tourner vers le Framework Electron, permettant
+le développement d'application native à l'aide de Javascript, HTML5 et CSS3. Ainsi l'application a également l'avantage de pouvoir être portée
+facilement dans une version web hébergée sur un serveur distant. Pour bénéficier de graphisme agréable et d'une expérience unifiée, nous avons
+utilisé les composant web de Material-Design de Google.
+
+\section{Structure d'une application Electron}
+Le framework Electron permet d'organiser le programme comme on organiserait les sources d'une application Web classique:
+\begin{itemize}
+\item un dossier pour les pages HTML statiques
+\item un dossier pour les styles CSS
+\item un dossier pour les scripts JS
+\item un fichier main.js qui est le point d'entrée du programme et qui charge les ressources nécessaires à l'exécution de l'application.
+\end{itemize}
 
 \section{Les difficultés rencontrées}
+La promesse d'Electron est de pouvoir développer une application de bureau comme on développerait un site web. Mais la multiplicité des
+technologies web et leurs évolutions rapide sans standard défini à l'avance pose des problèmes de compatibilités. En effet,
+certain script interne des libraires d'animations de Material Design a demandé des adaptations pour fonctionner au sein de notre application.
+La découverte du trio HTML/CSS/JS a également été une des difficultés à surmonter. De plus, Electron ne propose pas de moteur de template
+comme Angular le fait et il a donc été nécessaire de coder la quasi totalité du site sous forme de page statique, multipliant les doublons dans le code.
+
 
 {\let\clearpage\relax \chapter{- Conclusion}}
 \textit{Story Branch} is a game we developed in JavaScript, HTML and CSS, whose purpose is to make you learn about the Hundred Years War by making you play as the Kings of England during that era. To do so, the goal is to stick as closely as possible to real life, which also allows to see that, sometimes, reality supersedes fiction !
@@ -169,12 +190,21 @@ The true answer would be " ", and only that would earn you points for your score
 
 {\let\clearpage\relax \chapter{- Credits:}}
 
-We used informations from the websites listed below:
+We used informations from the websites listed below: \newline
+History informations:
 \begin{itemize}
 \item \textit{https://www.shutterstock.com}
 \item \textit{https://en.wikipedia.org}
 \item \textit{http://www.history.com/topics/hundred-years-war}
 \item \textit{http://www.bbc.co.uk/history/british/middle_ages/hundred_years_war_01.shtml}
+\end{itemize}
+
+Technologies:
+\begin{itemize}
+\item \textit{https://material.io/}
+\item \textit{https://electron.atom.io/}
+\item \textit{https://stackoverflow.com/}
+\item \textit{https://www.w3schools.com/}
 \end{itemize}
 
 \end{document}
