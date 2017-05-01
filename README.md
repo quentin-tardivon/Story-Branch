@@ -4,8 +4,6 @@
 
 Electron based application (multiplatform and web powered)
 
-Udacity: ud804 ud015
-
 ## Game Idea:
 
 Historical based game in which you must try to reproduce what really happened as
@@ -25,10 +23,3 @@ your decisions matched with reality.
 * Scores (multiplayer)
 * Create save
 * Save result as an external file (png, jpeg, pdf)
-
-## Docs:
-* https://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/
-* https://github.com/material-components/material-components-web
-* EJS / HandleBar
-
-TODO: Implement EJS, implement pagetransitions
